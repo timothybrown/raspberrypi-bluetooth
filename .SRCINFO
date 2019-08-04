@@ -1,26 +1,24 @@
 pkgbase = raspberrypi-bluetooth
 	pkgdesc = Provides Bluetooth support for Raspberry Pi 3B/3B+/ZeroW without using legacy Bluez tools.
 	pkgver = 1.0.0
-	pkgrel = 1
+	pkgrel = 2
 	url = http://github.com/timothybrown/raspberrypi-bluetooth
 	arch = armv6h
 	arch = armv7h
 	arch = aarch64
 	license = MIT
-	makedepends = python-pip
 	makedepends = python-setuptools
 	makedepends = python-wheel
 	depends = bluez
 	depends = bluez-utils
 	depends = python
 	depends = python-systemd
-	noextract = rpinfo-0.2.1.tar.gz
 	source = raspberrypi-bluetooth-1.0.0.py
 	source = raspberrypi-bluetooth-1.0.0.service
-	source = rpinfo-0.2.1.tar.gz
+	source = git+https://github.com/timothybrown/python-rpinfo.git
 	md5sums = 15f8a2d3a1eb39a2568e03489fe2385b
 	md5sums = 90674910d8a23d4ba7ca2bd068fb55a4
-	md5sums = 202bec3ad07cb05a120359fa92ce802c
+	md5sums = SKIP
 
 pkgname = raspberrypi-bluetooth
 
