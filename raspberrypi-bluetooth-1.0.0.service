@@ -1,0 +1,12 @@
+[Unit]
+Description=Raspberry Pi Bluetooth
+Before=bluetooth.service
+
+[Service]
+Type=notify
+ExecStart=/usr/bin/raspberrypi-bluetooth
+RemainAfterExit=true
+StandardOutput=journal
+
+[Install]
+WantedBy=bluetooth.target
