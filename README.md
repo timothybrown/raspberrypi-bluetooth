@@ -22,7 +22,7 @@ months with no issues, so I figured it was time for a proper release!)
 
 ## Install
 ```
-git clone https://github.com/timothybrown/raspberrypi-bluetooth
+git clone https://github.com/timothybrown/raspberrypi-bluetooth.git
 cd raspberrypi-bluetooth
 makepkg -si
 sudo systemctl enable raspberrypi-bluetooth
